@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/perfil"
+            android:icon="@drawable/perfil"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/addPessoa"
+            android:icon="@drawable/add_pessoa"
+            android:title="Adicionar Pessoa" />
+        <item
+            android:id="@+id/list_Emprestimo"
+            android:icon="@drawable/hands2"
+            android:title="Emprestimo" />
+    </group>
+
+
+
+</menu>
